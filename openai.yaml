@@ -1,0 +1,15 @@
+interface:
+  display_name: 手绘拼贴海报
+  short_description: 将单张照片制作成上实景、下手绘拼贴的 3:4 高级海报。
+  default_prompt: Use $handdrawn-poster on the current uploaded photo. Keep a strict
+    3:4 portrait canvas with the source image above and a source-grounded pastel-crayon
+    material-collage reinterpretation below, exactly 50:50.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  allow_implicit_invocation: true
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
